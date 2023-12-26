@@ -5,12 +5,12 @@ function Prime(num){
     }else{
        for(let i =2 ; i < num;i++){
         if(num%i==0){
-            prime = true
-        }else{
             prime = false
+        }else{
+            prime = true
         }
        }
     }
     return prime
 }
-console.log(Prime(4))
+console.log(Prime(9))
